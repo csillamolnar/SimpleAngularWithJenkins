@@ -12,7 +12,7 @@ node{
 
     stage("Unit Test"){
    
-            bat 'npm run test:unit';
+            bat 'npm run test';
            
         
     }
