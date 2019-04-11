@@ -5,14 +5,14 @@ node{
 
     stage("Install"){
        
-            sh 'npm install';
+            bat 'npm install';
 
         
     }
 
     stage("Unit Test"){
    
-            sh 'npm run test:unit';
+            bat 'npm run test:unit';
            
         
     }
